@@ -1,3 +1,47 @@
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 117, 136);
+    padding: 10px;
+    position: fixed;
+    /* Fixar no topo */
+    top: 0;
+    /* Alinhar ao topo */
+    width: 100%;
+    /* Ocupa toda a largura da página */
+    z-index: 1000;
+    /* Garantir que fique acima de outros elementos */
+}
+
+header img {
+    width: 201px;
+    height: 72px;
+    margin-left: 8px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-indent: 25px;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fe6666;
+}
+
+header ul li:hover {
+    color: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
